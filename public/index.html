@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo list jQuery</title>
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="myDIV" class="header">
+    <h2>To Do List</h2>
+    <input type="text" id="myInput" placeholder="Type in your plans">
+    <span class="addBtn">Add</span>
+</div>
+<ul id="sortable" class="myUL"></ul>
+<div class="count">
+    <p>Table: todo list result</p>
+    <table>
+        <tr>
+            <th>Done</th>
+            <th>Last</th>
+            <th>All</th>
+        </tr>
+        <tr id="count">
+            <td id="done"></td>
+            <td id="last"></td>
+            <td id="all"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
